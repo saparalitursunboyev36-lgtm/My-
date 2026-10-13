@@ -1,0 +1,11 @@
+import React from "react";
+
+function Loading() {
+  return (
+    <div className="flex flex-1 items-center justify-center py-32">
+      <div className="h-10 w-10 animate-spin rounded-full border-4 border-emerald-200 border-t-emerald-600" />
+    </div>
+  );
+}
+
+export default Loading;
